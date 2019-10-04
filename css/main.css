@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #db708b;
+  background: #b60df6;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2986,13 +2986,6 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
-}
-body {
-  background: url("/images/bg.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
 }
 @font-face {
   font-family: MiNiJianQiTi-1;
