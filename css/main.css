@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #381117;
+  background: #25ff57;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3003,7 +3003,7 @@ body {
   font-family: 'Zitiming' !important;
 }
 .site-meta {
-  background: #0684bd;
+  background: $gray;
 }
 .post {
   margin-top: 0px;
