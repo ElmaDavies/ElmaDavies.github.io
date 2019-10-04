@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc2ab;
+  background: #c475c2;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2995,12 +2995,12 @@ body {
   background-position: center;
 }
 @font-face {
-  font-family: aJiaYangYongZhiShouJinZhengKaiJian-2;
-  src: url("/fonts/aJiaYangYongZhiShouJinZhengKaiJian-2.ttf");
+  font-family: MiNiJianQiTi-1;
+  src: url("/fonts/MiNiJianQiTi-1.ttf");
 }
 .site-title {
   font-size: 40px !important;
-  font-family: 'aJiaYangYongZhiShouJinZhengKaiJian-2' !important;
+  font-family: 'MiNiJianQiTi-1' !important;
 }
 .site-meta {
   background: $gray;
