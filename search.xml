@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[分类测试文章]]></title>
+    <url>%2FTesting%2F%E5%88%86%E7%B1%BB%E6%B5%8B%E8%AF%95%2F</url>
+    <content type="text"><![CDATA[这是一篇分类测试文章]]></content>
+      <categories>
+        <category>Testing</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[标签测试文章]]></title>
+    <url>%2Funcategorized%2Fhello-world%2F</url>
+    <content type="text"><![CDATA[添加标签页面]]></content>
+      <tags>
+        <tag>Testing</tag>
+        <tag>Start</tag>
+      </tags>
+  </entry>
+</search>
