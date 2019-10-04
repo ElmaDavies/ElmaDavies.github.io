@@ -1819,7 +1819,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #bd9dda;
+  background: #fefcff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2929,6 +2929,9 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 .links-of-author-item a {
   display: block;
@@ -2981,6 +2984,9 @@ pre .javascript .function {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0s;
 }
 @media (max-width: 767px) {
   .post-body {
@@ -2993,6 +2999,13 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+}
+.post {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
+  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
 }
 @font-face {
   font-family: MiNiJianQiTi-1;
