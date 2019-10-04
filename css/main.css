@@ -1829,7 +1829,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #90ee4a;
+  background: #c6ff8f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3024,6 +3024,10 @@ body {
 }
 .busuanzi-value {
   color: #1890ff;
+}
+.local-search-popup #local-search-result {
+  padding: 25px 40px;
+  height: calc(100% - 95px);
 }
 * {
   cursor: url("http://om8u46rmb.bkt.clouddn.com/sword2.ico"), auto !important;
