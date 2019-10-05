@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title><![CDATA[加密文章测试]]></title>
+    <url>%2FTesting%2Fencrypt%2F</url>
+    <content type="text"><![CDATA[Hey, password is required here. e39eda62861f8ee44a32c2146390a949849d6d7374f516a11bd64238a9d46f82]]></content>
+      <categories>
+        <category>Testing</category>
+      </categories>
+      <tags>
+        <tag>Test</tag>
+      </tags>
+  </entry>
+  <entry>
     <title><![CDATA[评论测试]]></title>
     <url>%2Funcategorized%2Fcomment%2F</url>
     <content type="text"><![CDATA[评论测试文章]]></content>
