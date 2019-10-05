@@ -95,7 +95,7 @@
 <meta property="og:site_name" content="此间不留白">
 <meta property="og:description" content="var APP_ID = 0Bu8uln8Fjv64vqKCLi6NYLU-gzGzoHsz;  //输入个人LeanCloud账号AppID   var APP_KEY = AsoGdrSEsPh7aw0ysadu8niR;  //输入个人LeanCloud账号AppKey   AV.init({     appId: APP_ID,     appKey: APP_KEY   })">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-10-05T02:34:20.252Z">
+<meta property="og:updated_time" content="2019-10-05T02:44:27.354Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="热门文章Top 10">
 <meta name="twitter:description" content="var APP_ID = 0Bu8uln8Fjv64vqKCLi6NYLU-gzGzoHsz;  //输入个人LeanCloud账号AppID   var APP_KEY = AsoGdrSEsPh7aw0ysadu8niR;  //输入个人LeanCloud账号AppKey   AV.init({     appId: APP_ID,     appKey: APP_KEY   })">
@@ -344,7 +344,7 @@
   query.limit(10);  //最终只返回10条结果
   query.find().then( response => {
     var content = response.reduce( (accum, {attributes}) => {
-      accum += `<p><div class="prefix">热度 ${attributes.time} ℃</div><div><a href="${attributes.url}">${attributes.title}</a></div></p>`
+      accum += `<p><div class="prefix">热度 ${attributes.time} ℃</div><div><a href="${attributes.url}">${attributes.title}</a></div> </p> `;
       return accum;
     },"")
     document.querySelector("#post-rank").innerHTML = content;
