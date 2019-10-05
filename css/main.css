@@ -1095,11 +1095,6 @@ pre .javascript .function {
   height: 3px;
   background: #222;
 }
-.site-title {
-  opcity: 0.9;
-  font-family: "ShenYunSuXingTi-2.ttf";
-  fomt-size: 24px;
-}
 .site-meta {
   margin: 0;
   text-align: center;
@@ -1841,7 +1836,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2fa112;
+  background: #4574ff;
 }
 .links-of-blogroll {
   font-size: 13px;
