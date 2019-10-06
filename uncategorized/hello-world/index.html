@@ -92,7 +92,7 @@
 <meta name="keywords" content="Testing,Start">
 <meta property="og:type" content="article">
 <meta property="og:title" content="标签测试文章">
-<meta property="og:url" content="http://yoursite.com/uncategorized/hello-world/index.html">
+<meta property="og:url" content="https://elmadavies.github.io/uncategorized/hello-world/index.html">
 <meta property="og:site_name" content="此间不留白">
 <meta property="og:description" content="添加标签页面">
 <meta property="og:locale" content="zh-Hans">
@@ -129,7 +129,7 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/uncategorized/hello-world/">
+  <link rel="canonical" href="https://elmadavies.github.io/uncategorized/hello-world/">
 
 
 
@@ -354,7 +354,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/uncategorized/hello-world/">
+    <link itemprop="mainEntityOfPage" href="https://elmadavies.github.io/uncategorized/hello-world/">
     
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="ElmaDavies">
@@ -468,14 +468,22 @@
 
     
       <div>
-        <ul class="post-copyright">
+        <!-- JS库 clipboard 拷贝内容到粘贴板-->
+<script src="https://cdn.bootcss.com/clipboard.js/2.0.1/clipboard.min.js"></script>
+
+<!-- JS库 sweetalert 显示提示信息-->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+
+
+<ul class="post-copyright">
   <li class="post-copyright-author">
     <strong>本文作者：</strong>
     ElmaDavies
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://yoursite.com/uncategorized/hello-world/" title="标签测试文章">http://yoursite.com/uncategorized/hello-world/</a>
+    <a href="https://elmadavies.github.io/uncategorized/hello-world/" title="标签测试文章">https://elmadavies.github.io/uncategorized/hello-world/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -483,6 +491,20 @@
   </li>
 </ul>
 
+
+<script>
+  var clipboard = new ClipboardJS('.fa-clipboard');
+  clipboard.on('success', function(target){
+    var message = document.createElement('div');
+    message.innerHTML = '<i class="fa fa-check-circle message-icon"></i><span class="message-content">' + target.trigger.getAttribute('aria-label') + '</span>';
+    swal({
+      content: message,
+      className: "copy-success-message",
+      timer: 1000,
+      button: false
+    });
+  });
+</script>
       </div>
     
 
