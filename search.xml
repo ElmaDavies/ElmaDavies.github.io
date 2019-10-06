@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[加密文章测试]]></title>
     <url>%2FTesting%2Fencrypt%2F</url>
-    <content type="text"><![CDATA[Hey, password is required here. e39eda62861f8ee44a32c2146390a949849d6d7374f516a11bd64238a9d46f82]]></content>
+    <content type="text"><![CDATA[请输入密码以阅读这篇私密文章。 e39eda62861f8ee44a32c2146390a949849d6d7374f516a11bd64238a9d46f82]]></content>
       <categories>
         <category>Testing</category>
       </categories>

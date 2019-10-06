@@ -23,11 +23,11 @@
     <published>2019-10-05T08:40:21.916Z</published>
     <updated>2019-10-05T08:42:16.068Z</updated>
     
-    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="Hey, password is required here." />    <label for="hbePass">Hey, password is required here.</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="6daabf11ef79df72706134540f44deed98f68abac99e8bf5cc238277fb50ba63">e39eda62861f8ee44a32c2146390a949849d6d7374f516a11bd64238a9d46f82</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
+    <content type="html"><![CDATA[<div id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <div class="hbe-input-container">  <input type="password" id="hbePass" placeholder="请输入密码以阅读这篇私密文章。" />    <label for="hbePass">请输入密码以阅读这篇私密文章。</label>    <div class="bottom-line"></div>  </div>  <script id="hbeData" type="hbeData" data-hmacdigest="6daabf11ef79df72706134540f44deed98f68abac99e8bf5cc238277fb50ba63">e39eda62861f8ee44a32c2146390a949849d6d7374f516a11bd64238a9d46f82</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
     
     <summary type="html">
     
-      Here&#39;s something encrypted, password is required to continue reading.
+      此文章已被加密，需要输入密码访问。
     
     </summary>
     
