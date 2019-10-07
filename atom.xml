@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://elmadavies.github.io/"/>
-  <updated>2019-10-07T13:56:32.369Z</updated>
+  <updated>2019-10-07T14:01:10.436Z</updated>
   <id>https://elmadavies.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://elmadavies.github.io/%E9%9A%8F%E7%AC%94/%E6%96%B0%E7%9A%84%E5%BC%80%E5%A7%8B/"/>
     <id>https://elmadavies.github.io/随笔/新的开始/</id>
     <published>2019-10-07T12:59:24.661Z</published>
-    <updated>2019-10-07T13:56:32.369Z</updated>
+    <updated>2019-10-07T14:01:10.436Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/blog_background/bg1.jpg" alt></p><a id="more"></a><p>####一些说明</p><p>花了一个国庆的时间，终于将这个博客搭建的差不多了，尽管还有很多不足，但是目前基本够用，也许在使用过程中还会出现很多bug，只能边用边解决了。</p><p>搭建一个自己的博客是我一直想要做的事，但是之前由于被各种繁杂的事务耽搁，导致一直没有时间动手去做，趁着这个国庆假期终于做好了。整个博客是用<code>hexo+github</code>搭建完成的，倒也没什么难度，就是需要一些耐心，当然，如果有一些前端方面的知识，搭建起来会更加顺利，可定制化也会更高。</p><p>以后，会慢慢的将自己的简书上的文章迁移过来，以后也会在简书平台和这个博客网站共同记录自己的学习笔记，除此之外，博客平台除了技术也会记录一些自己的生活经历等。</p><p>在搭建博客的过程中，看到可好多大佬的博客非常漂亮，也受到了好多大佬的所写文章的指点，在此表示非常感谢。为此，附上几个教学链接，有需要搭建此类博客的同学，也可以了解一下。</p><p>####博客搭建与优化教程</p><ul><li><p><a href="http://yearito.cn/categories/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">搭建教程1</a></p></li><li><p><a href="https://bestzuo.cn/categories/%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">搭建教程2</a></p></li><li><p><a href="https://bestzuo.cn/categories/%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">搭建教程3</a></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/blog_background/bg1.jpg" alt></p><a id="more"></a><h4 id="一些说明"><a href="#一些说明" class="headerlink" title="一些说明"></a>一些说明</h4><p>花了一个国庆的时间，终于将这个博客搭建的差不多了，尽管还有很多不足，但是目前基本够用，也许在使用过程中还会出现很多bug，只能边用边解决了。</p><br>搭建一个自己的博客是我一直想要做的事，但是之前由于被各种繁杂的事务耽搁，导致一直没有时间动手去做，趁着这个国庆假期终于做好了。整个博客是用`hexo+github`搭建完成的，倒也没什么难度，就是需要一些耐心，当然，如果有一些前端方面的知识，搭建起来会更加顺利，可定制化也会更高。<br>以后，会慢慢的将自己的简书上的文章迁移过来，以后也会在简书平台和这个博客网站共同记录自己的学习笔记，除此之外，博客平台除了技术也会记录一些自己的生活经历等。<br><p>在搭建博客的过程中，看到可好多大佬的博客非常漂亮，也受到了好多大佬的所写文章的指点，在此表示非常感谢。为此，附上几个教学链接，有需要搭建此类博客的同学，也可以了解一下。</p><h4 id="博客搭建与优化教程"><a href="#博客搭建与优化教程" class="headerlink" title="博客搭建与优化教程"></a>博客搭建与优化教程</h4><ul><li><p><a href="http://yearito.cn/categories/%E6%8A%80%E6%9C%AF/%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">搭建教程1</a></p></li><li><p><a href="https://bestzuo.cn/categories/%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">搭建教程2</a></p></li><li><p><a href="https://bestzuo.cn/categories/%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">搭建教程3</a></p></li></ul>]]></content>
     
     <summary type="html">
     
