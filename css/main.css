@@ -1858,7 +1858,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff1839;
+  background: #3e4daa;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3107,6 +3107,10 @@ body {
 .site-meta {
   background: url("/images/header.jpg");
 }
+::selection {
+  background: #fff159;
+  color: #222;
+}
 .swal-overlay {
   background-color: transparent;
 }
@@ -3185,4 +3189,26 @@ a.my-post-title-link {
   color: #99a9bf;
   width: 80px;
   color: #114142;
+}
+.site-meta .site-title {
+  font-size: 28px;
+  font-family: 'Comic Sans MS', sans-serif;
+  color: #fff;
+}
+.post-toc .nav .active-current>a {
+  color: #2da5da;
+}
+@media (min-width: 1000px) {
+  .container .main-inner {
+    width: 900px;
+  }
+}
+.post-spread {
+  margin-bottom: 20px;
+}
+.post-toc ol a {
+  color: #000;
+}
+.post-body {
+  text-align: justify;
 }
