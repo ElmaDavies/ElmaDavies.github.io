@@ -1922,7 +1922,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4037b1;
+  background: #ff863c;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3129,11 +3129,11 @@ body {
 }
 .header-inner {
   background: #fff;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .main-inner {
   background: #fff;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 @font-face {
   font-family: "MiNiJianQiTi-1";
