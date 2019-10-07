@@ -1858,7 +1858,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #2b52fa;
+  background: #3681f9;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3027,6 +3027,7 @@ pre .javascript .function {
   }
 }
 body {
+  background: url("images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3469,64 +3470,6 @@ ul.popular-posts .popular-posts-item .popular-posts-title a:hover {
 }
 .local-search-popup .popup-btn-close {
   border-left: none;
-}
-::-webkit-scrollbar {
-  width: 10px;
-  height: 10px;
-}
-::-webkit-scrollbar-button {
-  width: 0;
-  height: 0;
-}
-::-webkit-scrollbar-button:start:increment,
-::-webkit-scrollbar-button:end:decrement {
-  display: none;
-}
-::-webkit-scrollbar-corner {
-  display: block;
-}
-::-webkit-scrollbar-thumb {
-  border-radius: 8px;
-  background-color: rgba(0,0,0,0.2);
-}
-::-webkit-scrollbar-thumb:hover {
-  border-radius: 8px;
-  background-color: rgba(0,0,0,0.5);
-}
-::-webkit-scrollbar-track,
-::-webkit-scrollbar-thumb {
-  border-right: 1px solid transparent;
-  border-left: 1px solid transparent;
-}
-::-webkit-scrollbar-track:hover {
-  background-color: rgba(0,0,0,0.15);
-}
-::-webkit-scrollbar-button:start {
-  width: 10px;
-  height: 10px;
-}
-.back-to-top.back-to-top-on {
-  bottom: unset;
-  top: calc(100vh - 900px - 200px);
-}
-.back-to-top {
-  width: 70px;
-  height: 360px;
-  top: -900px;
-  bottom: unset;
-  transition: all 0.5s ease-in-out;
-  background: url("https://site-1258928558.cos.ap-guangzhou.myqcloud.com/scroll.png");
-}
-.back-to-top {
-  box-sizing: border-box;
-  position: fixed;
-  z-index: 1050;
-  padding: 0 6px;
-  font-size: 12px;
-  opacity: 1;
-  color: #fff;
-  cursor: pointer;
-  text-align: center;
 }
 span.blog-me {
   color: #fff;
