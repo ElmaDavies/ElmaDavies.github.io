@@ -1922,7 +1922,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #8e00ff;
+  background: #ff6201;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3114,7 +3114,7 @@ pre .javascript .function {
   }
 }
 body {
-  background: url("/images/bg.jpg");
+  background: #000;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -3129,11 +3129,11 @@ body {
 }
 .header-inner {
   background: #fff;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 .main-inner {
   background: #fff;
-  opacity: 0.9;
+  opacity: 0.8;
 }
 @font-face {
   font-family: "MiNiJianQiTi-1";
