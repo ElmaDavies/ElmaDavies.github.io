@@ -1922,7 +1922,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #a7144e;
+  background: #fc9eff;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3114,7 +3114,7 @@ pre .javascript .function {
   }
 }
 body {
-  background: url("/images/bg.jpg");
+  background: url("https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/blog_background/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

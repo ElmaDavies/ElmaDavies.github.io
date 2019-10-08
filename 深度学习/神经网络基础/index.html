@@ -102,7 +102,7 @@
 <meta property="og:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/1-4.png">
 <meta property="og:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/1-5.png">
 <meta property="og:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/1-6.png">
-<meta property="og:updated_time" content="2019-10-08T11:22:05.087Z">
+<meta property="og:updated_time" content="2019-10-08T12:35:46.788Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="神经网络基础">
 <meta name="twitter:description" content="假设有以下一张图片，要判断其输出是否为猫，若是，则可以用$y = 1$表示，否则用$y = 0$表示。">
@@ -531,7 +531,7 @@
 <p>$a^{(i)} = \hat{y}^{(i)} = \delta(z^{(i)}) = \delta(w^Tx^{(i)} +b)$</p>
 <p>其梯度计算公式，可以有如下表示：<br>$\frac{\partial J(w,b)}{\partial w} = \frac{1}<br>{m}\sum_{i=1}^{m}\frac{\partial }{\partial w}L(a^{(i)},y^{(i)}) $</p>
 <p>在实际计算过程中，需要计算每一个样本的关于$w$的梯度，最后求和取平均，在一个具体算法实现中，其为代码可以如下所示：</p>
-<p>假设有2个特征向量，$m$个样本，则有：<br>初始化：$J = 0, dw_1 = 0,dw_2 = 0$<br>$for \ \ i =1 \ \ to \ \ m:$</p>
+<p>假设有2个特征向量，$m$个样本，则有：<br>初始化：$J = 0, dw_1 = 0,dw_2 = 0$<br>$for  i =1  to \ \ m:$</p>
 <p>$ \ \ \ \ \ \ z^{(i)} = w^Tx^{(i)} +b;$</p>
 <p>$ \ \ \ \ \ \ a^{(i)} =\delta(z^{(i)});$</p>
 <p>$ \ \ \ \ \ \ J+ =  -y^{(i)}log(a^{(i)})-(1-y^{(i)})log(1-a^{(i)});$</p>
