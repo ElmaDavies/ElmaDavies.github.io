@@ -389,6 +389,178 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://elmadavies.github.io/深度学习/神经网络实践2/">
+    
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="ElmaDavies">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/face6.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="此间不留白">
+    </span>
+    
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/深度学习/神经网络实践2/" itemprop="url">具有神经网络思维的逻辑回归算法</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-10-17T17:37:40+08:00">
+                2019-10-17
+              </time>
+            
+            
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/深度学习/" itemprop="url" rel="index">
+                    <span itemprop="name">深度学习</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/深度学习/神经网络实践2/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/深度学习/神经网络实践2/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/深度学习/神经网络实践2/" class="leancloud_visitors" data-flag-title="具有神经网络思维的逻辑回归算法">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                <span class="post-meta-item-text">热度 </span>
+                 
+               
+                 <span class="leancloud-visitors-count"></span>
+                 <span>℃</span>
+             </span>
+          
+
+          
+
+          
+
+          
+          
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p><img src="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/nm6318.jpg" alt><br>本次作业，将会构建一个逻辑回归分类器用以识别猫， 通过完成这次作业，也能了解一些神经网络的思维，并且能够建立一个对神经网络的基本认识。</p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/深度学习/神经网络实践2/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    <div>
+  
+  </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://elmadavies.github.io/深度学习/神经网络实践1/">
     
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -504,57 +676,14 @@
 
       
         
-          
-            <a id="more"></a>
-
-
-<blockquote>
-<p>deeplearning.ai官网地址：<a href="https://www.deeplearning.ai/" target="_blank" rel="noopener">https://www.deeplearning.ai/</a><br>coursera地址：<a href="https://www.coursera.org/specializations/deep-learning" target="_blank" rel="noopener">https://www.coursera.org/specializations/deep-learning</a><br>网易视频地址：<a href="https://163.lu/nPtn42" target="_blank" rel="noopener">https://163.lu/nPtn42</a><br>课程一第二周课后作业1-1</p>
-</blockquote>
-<h1 id="使用Numpy构造基础数学函数"><a href="#使用Numpy构造基础数学函数" class="headerlink" title="使用Numpy构造基础数学函数"></a>使用Numpy构造基础数学函数</h1><p>numpy是一个python中基础的科学计算包，以下练习中，将会实现一些数学中的基础函数，如<code>np.log(),np.exp()</code>等。</p>
-<p>对于机器学习中的逻辑回归激活函数，表达式为$\delta = \frac{1}{1+e^{-z}}$，对于此公式，考虑到参数$z$是一个实数，可以简单的使用python中的<code>math</code>实现。</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sigmoid</span><span class="params">(z)</span>:</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>/(<span class="number">1</span>+math.exp(-z))</span><br></pre></td></tr></table></figure>
-
-<p>以上实现中，实际能够传入的参数<code>z</code>只能是一个数字，而在机器学习或者深度学习中，实际需要传入的参数是一个向量，所以<code>math.exp()</code>并不适用，可以使用<code>numpy.exp()</code>实现，如下所示：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sigmoid</span><span class="params">(z)</span>:</span></span><br><span class="line">  sigmoid = <span class="number">1</span>/(<span class="number">1</span>+np.exp(-z))</span><br><span class="line">  <span class="keyword">return</span> sigmoid</span><br></pre></td></tr></table></figure>
-
-<p>对于一个向量而言，<code>np.exp()</code>的实现过程就是对向量中的每一个元素计算<code>np.exp()</code>,可以如下图表示:</p>
-<p><a href="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-1.png" target="_blank" rel="noopener">https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-1.png</a></p>
-<h2 id="实现激活函数梯度"><a href="#实现激活函数梯度" class="headerlink" title="实现激活函数梯度"></a>实现激活函数梯度</h2><p>在之前的学习中，需要计算梯度优化使用反向传播算法的损失函数，对于此梯度的计算公式可以如下表示：<br>$\delta’(z) = \delta(z)*(1-\delta(z))$</p>
-<p>代码实如下所示：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sigmoid_derivative</span><span class="params">(z)</span>:</span></span><br><span class="line">  s = sigmoid(z)</span><br><span class="line">  ds = s(<span class="number">1</span>-s)</span><br><span class="line">  <span class="keyword">return</span> ds</span><br></pre></td></tr></table></figure>
-
-<h2 id="改变矩阵（向量）形状"><a href="#改变矩阵（向量）形状" class="headerlink" title="改变矩阵（向量）形状"></a>改变矩阵（向量）形状</h2><p>关于深度学习中，numpy中最常用到的两个跟矩阵或者向量形状有关的函数是<code>shape()</code>和<code>reshape()</code>。</p>
-<ol>
-<li><code>shape()</code>：返回当前矩阵或者向量的大小。</li>
-<li><code>reshape()</code>:将当前数组转化为特定形状。</li>
-</ol>
-<p>具体一些用法如下所示;<br>将一个三维图像矩阵(shape=(length,height,depth))，转化为一维数组(shape = (lenght×height×depth,1))以便于处理，具体实现方法可以由以下代码所示：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">image2vector</span><span class="params">(image)</span>:</span></span><br><span class="line">    v = image.reshape(image.shape[<span class="number">0</span>] * image.shape[<span class="number">1</span>] * image.shape[<span class="number">2</span>], <span class="number">1</span>)  </span><br><span class="line">    <span class="keyword">return</span> v</span><br></pre></td></tr></table></figure>
-
-<h2 id="按行标准化："><a href="#按行标准化：" class="headerlink" title="按行标准化："></a>按行标准化：</h2><p>机器学习或者深度学习中，常常用到的一个数据预处理技巧是标准化，标准化后的数据能够使得算法运行速度更快，关于数据标准化的公式如下所示：</p>
-<p>$normal = \frac{x}{||x||}$</p>
-<p>其中，$||x||$表示范数，对于一个向量$[x_1,x_2……x_n]$，其范数计</p>
-<p>算公式为$\sqrt{x_1^{2}+x_2^{2}+···x_n^{2}}$。</p>
-<p><code>numpy</code>已经提供了用于计算范数的函数，所以其数据标准化的处理过程可以用以下代码实现：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">normalizeRows</span><span class="params">(x)</span>:</span></span><br><span class="line">    x_norm = np.linalg.norm(x, axis = <span class="number">1</span>, keepdims = <span class="literal">True</span>)</span><br><span class="line">    x = x / x_norm</span><br><span class="line">    <span class="keyword">return</span> x</span><br></pre></td></tr></table></figure>
-
-<h2 id="Python广播机制和-softmax-函数"><a href="#Python广播机制和-softmax-函数" class="headerlink" title="Python广播机制和$softmax$函数"></a>Python广播机制和$softmax$函数</h2><p>为了理解<code>python</code>中的广播机制，一种行之有效的方法是操作两个维数不同的矩阵。使用<code>numpy</code>中的<code>softmax</code>函数理解<code>python</code>中的广播机制，可以将<code>softmax</code>函数认为是你的算法需要实现二分类或者更多分类时的数据标准化函数，其数学表示如下所示：</p>
-<p><img src="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-2.png" alt></p>
-<p>其实现代码如下所示：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">softmax</span><span class="params">(x)</span>:</span></span><br><span class="line">  x_exp = np.exp(x)</span><br><span class="line">  x_sum = np.sum(x_exp,axis=<span class="number">1</span>,keepdims = <span class="literal">True</span>)</span><br><span class="line">  <span class="keyword">return</span> x_exp/x_sum</span><br></pre></td></tr></table></figure>
-
-<h1 id="2-关于两个损失函数的实现"><a href="#2-关于两个损失函数的实现" class="headerlink" title="2. 关于两个损失函数的实现"></a>2. 关于两个损失函数的实现</h1><p>在深度学习中，损失函数常用来评估模型性能，如果损失函数的值越大，代表着模型的预测值与真实值之间的差值越大，深度学习中常用梯度下降算法来优化算法以最小化损失函数。</p>
-<h2 id="L1损失函数"><a href="#L1损失函数" class="headerlink" title="L1损失函数"></a>L1损失函数</h2><p>L1损失函数的定义如下所示：<br>$$\begin{align<em>} &amp; L_1(\hat{y}, y) = \sum_{i=0}^m|y^{(i)} - \hat{y}^{(i)}|\end{align</em>}$$</p>
-<p>其代码实现如下所示：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">L1</span><span class="params">(y,yhat)</span>:</span></span><br><span class="line">  loss = np.sum(np.abs(y-yhat))</span><br><span class="line">  <span class="keyword">return</span> loss</span><br></pre></td></tr></table></figure>
-
-<h2 id="L2损失函数"><a href="#L2损失函数" class="headerlink" title="L2损失函数"></a>L2损失函数</h2><p>L2损失函数的定义如下所示：<br>$$\begin{align<em>} &amp; L_2(\hat{y},y) = \sum_{i=0}^m(y^{(i)} -\hat{y}^{(i)})^2 \end{align</em>}$$<br><strong>注意：</strong>对于一个向量$[X] = [x_1,x_2,···x_n]$，<code>np.dot()</code>的计算过</p>
-<p>程为：<code>np.dot(x,x) =</code>$\sum_{i=0}^{n}x_i^{2}$，所以L2损失函数的一种有效计算方式是利用<code>dot()</code>函数，具体实现代码如下所示：</p>
-<figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">L2</span><span class="params">(y,yhat)</span>:</span></span><br><span class="line">  loss = np.sum(np.dot((y-yhat),(y-yhat).T))</span><br><span class="line">  <span class="keyword">return</span> loss</span><br></pre></td></tr></table></figure>
-
-
-          
+          <p><img src="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/4dzp9g.jpg" alt></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/深度学习/神经网络实践1/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
@@ -984,7 +1113,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -1006,7 +1135,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-count">4</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
