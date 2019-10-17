@@ -121,8 +121,9 @@
 <meta property="og:site_name" content="此间不留白">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/4dzp9g.jpg">
+<meta property="og:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-1.png">
 <meta property="og:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-2.png">
-<meta property="og:updated_time" content="2019-10-17T10:25:47.351Z">
+<meta property="og:updated_time" content="2019-10-17T10:35:02.208Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="deeplearning 课后作业1">
 <meta name="twitter:image" content="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/4dzp9g.jpg">
@@ -509,7 +510,7 @@
 <blockquote>
 <p>deeplearning.ai官网地址：<a href="https://www.deeplearning.ai/" target="_blank" rel="noopener">https://www.deeplearning.ai/</a><br>coursera地址：<a href="https://www.coursera.org/specializations/deep-learning" target="_blank" rel="noopener">https://www.coursera.org/specializations/deep-learning</a><br>网易视频地址：<a href="https://163.lu/nPtn42" target="_blank" rel="noopener">https://163.lu/nPtn42</a><br>课程一第二周课后作业1-1</p>
 </blockquote>
-<h1 id="使用Numpy构造基础数学函数"><a href="#使用Numpy构造基础数学函数" class="headerlink" title="使用Numpy构造基础数学函数"></a>使用Numpy构造基础数学函数</h1><p>numpy是一个python中基础的科学计算包，以下练习中，将会实现一些数学中的基础函数，如<code>np.log(),np.exp()</code>等。</p>
+<h1 id="使用numpy实现基本函数"><a href="#使用numpy实现基本函数" class="headerlink" title="使用numpy实现基本函数"></a>使用numpy实现基本函数</h1><h2 id="实现激活函数"><a href="#实现激活函数" class="headerlink" title="实现激活函数"></a>实现激活函数</h2><p>numpy是一个python中基础的科学计算包，以下练习中，将会实现一些数学中的基础函数，如<code>np.log(),np.exp()</code>等。</p>
 <p>对于机器学习中的逻辑回归激活函数，表达式为$\delta = \frac{1}{1+e^{-z}}$，对于此公式，考虑到参数$z$是一个实数，可以简单的使用python中的<code>math</code>实现。</p>
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> math</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sigmoid</span><span class="params">(z)</span>:</span></span><br><span class="line">  <span class="keyword">return</span> <span class="number">1</span>/(<span class="number">1</span>+math.exp(-z))</span><br></pre></td></tr></table></figure>
 
@@ -517,7 +518,7 @@
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sigmoid</span><span class="params">(z)</span>:</span></span><br><span class="line">  sigmoid = <span class="number">1</span>/(<span class="number">1</span>+np.exp(-z))</span><br><span class="line">  <span class="keyword">return</span> sigmoid</span><br></pre></td></tr></table></figure>
 
 <p>对于一个向量而言，<code>np.exp()</code>的实现过程就是对向量中的每一个元素计算<code>np.exp()</code>,可以如下图表示:</p>
-<p><a href="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-1.png" target="_blank" rel="noopener">https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-1.png</a></p>
+<p><img src="https://elamdavies-1300381401.cos.ap-chengdu.myqcloud.com/deepLearning_course1/%E8%AF%BE%E7%A8%8B1-%E7%AC%AC%E4%BA%8C%E5%91%A8%E4%BD%9C%E4%B8%9A1-1.png" alt></p>
 <h2 id="实现激活函数梯度"><a href="#实现激活函数梯度" class="headerlink" title="实现激活函数梯度"></a>实现激活函数梯度</h2><p>在之前的学习中，需要计算梯度优化使用反向传播算法的损失函数，对于此梯度的计算公式可以如下表示：<br>$\delta’(z) = \delta(z)*(1-\delta(z))$</p>
 <p>代码实如下所示：</p>
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">sigmoid_derivative</span><span class="params">(z)</span>:</span></span><br><span class="line">  s = sigmoid(z)</span><br><span class="line">  ds = s(<span class="number">1</span>-s)</span><br><span class="line">  <span class="keyword">return</span> ds</span><br></pre></td></tr></table></figure>
@@ -542,7 +543,7 @@
 <p>其实现代码如下所示：</p>
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">softmax</span><span class="params">(x)</span>:</span></span><br><span class="line">  x_exp = np.exp(x)</span><br><span class="line">  x_sum = np.sum(x_exp,axis=<span class="number">1</span>,keepdims = <span class="literal">True</span>)</span><br><span class="line">  <span class="keyword">return</span> x_exp/x_sum</span><br></pre></td></tr></table></figure>
 
-<h1 id="2-关于两个损失函数的实现"><a href="#2-关于两个损失函数的实现" class="headerlink" title="2. 关于两个损失函数的实现"></a>2. 关于两个损失函数的实现</h1><p>在深度学习中，损失函数常用来评估模型性能，如果损失函数的值越大，代表着模型的预测值与真实值之间的差值越大，深度学习中常用梯度下降算法来优化算法以最小化损失函数。</p>
+<h1 id="2-关于两个损失函数的实现"><a href="#2-关于两个损失函数的实现" class="headerlink" title="2.关于两个损失函数的实现"></a>2.关于两个损失函数的实现</h1><p>在深度学习中，损失函数常用来评估模型性能，如果损失函数的值越大，代表着模型的预测值与真实值之间的差值越大，深度学习中常用梯度下降算法来优化算法以最小化损失函数。</p>
 <h2 id="L1损失函数"><a href="#L1损失函数" class="headerlink" title="L1损失函数"></a>L1损失函数</h2><p>L1损失函数的定义如下所示：<br>$$\begin{align<em>} &amp; L_1(\hat{y}, y) = \sum_{i=0}^m|y^{(i)} - \hat{y}^{(i)}|\end{align</em>}$$</p>
 <p>其代码实现如下所示：</p>
 <figure class="highlight py"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">L1</span><span class="params">(y,yhat)</span>:</span></span><br><span class="line">  loss = np.sum(np.abs(y-yhat))</span><br><span class="line">  <span class="keyword">return</span> loss</span><br></pre></td></tr></table></figure>
@@ -633,8 +634,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/深度学习/神经网络基础/" rel="next" title="神经网络基础">
-                <i class="fa fa-chevron-left"></i> 神经网络基础
+              <a href="/深度学习/神经网络实践2/" rel="next" title="具有神经网络思维的逻辑回归算法">
+                <i class="fa fa-chevron-left"></i> 具有神经网络思维的逻辑回归算法
               </a>
             
           </div>
@@ -642,10 +643,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/深度学习/神经网络实践2/" rel="prev" title="具有神经网络思维的逻辑回归算法">
-                具有神经网络思维的逻辑回归算法 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -855,7 +852,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#使用Numpy构造基础数学函数"><span class="nav-number">1.</span> <span class="nav-text">使用Numpy构造基础数学函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#实现激活函数梯度"><span class="nav-number">1.1.</span> <span class="nav-text">实现激活函数梯度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#改变矩阵（向量）形状"><span class="nav-number">1.2.</span> <span class="nav-text">改变矩阵（向量）形状</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#按行标准化："><span class="nav-number">1.3.</span> <span class="nav-text">按行标准化：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python广播机制和-softmax-函数"><span class="nav-number">1.4.</span> <span class="nav-text">Python广播机制和$softmax$函数</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-关于两个损失函数的实现"><span class="nav-number">2.</span> <span class="nav-text">2. 关于两个损失函数的实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#L1损失函数"><span class="nav-number">2.1.</span> <span class="nav-text">L1损失函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#L2损失函数"><span class="nav-number">2.2.</span> <span class="nav-text">L2损失函数</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#使用numpy实现基本函数"><span class="nav-number">1.</span> <span class="nav-text">使用numpy实现基本函数</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#实现激活函数"><span class="nav-number">1.1.</span> <span class="nav-text">实现激活函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实现激活函数梯度"><span class="nav-number">1.2.</span> <span class="nav-text">实现激活函数梯度</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#改变矩阵（向量）形状"><span class="nav-number">1.3.</span> <span class="nav-text">改变矩阵（向量）形状</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#按行标准化："><span class="nav-number">1.4.</span> <span class="nav-text">按行标准化：</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Python广播机制和-softmax-函数"><span class="nav-number">1.5.</span> <span class="nav-text">Python广播机制和$softmax$函数</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-关于两个损失函数的实现"><span class="nav-number">2.</span> <span class="nav-text">2.关于两个损失函数的实现</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#L1损失函数"><span class="nav-number">2.1.</span> <span class="nav-text">L1损失函数</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#L2损失函数"><span class="nav-number">2.2.</span> <span class="nav-text">L2损失函数</span></a></li></ol></li></ol></div>
             
 
           </div>
